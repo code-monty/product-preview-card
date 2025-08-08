@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+h1 {
+    font-family: Fraunces;
+    font-size: 36px;
+}
