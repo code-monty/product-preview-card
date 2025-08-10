@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Product preview card component</title>
 
-  
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -20,12 +20,12 @@
 <body>
   <main class="min-h-screen max-w-screen">
   <div class="min-h-[100vh] max-w-[100vw] h-full w-full m-auto flex flex-col justify-center items-center bg-[#f3eae3] font-[Montserrat]">
-      <!--main card 8/9/25 FIX THE RESPONSIVE-->
-    <div class="max-sm:w-[20em] max-sm:flex max-sm:flex-col w-[40em] flex flex-row items-center justify-center bg-white rounded-2xl space-x-[1em]">
+      <!--main card-->
+    <div class="max-sm:w-[20em] max-sm:flex max-sm:flex-col max-sm:space-x-[0em] w-[40em] flex flex-row items-center justify-center bg-white rounded-2xl space-x-[1em]">
       <!--Picture-->
-      <img class="max-sm:w-[10em] w-[20em] max-sm:rounded-t-2xl rounded-l-xl" src="images/image-product-desktop.jpg">
+      <img class="max-sm:size-[20em] w-[20em] max-sm:mb-[1.5em] max-sm:rounded-t-xl  max-sm:rounded-l-[0em] rounded-l-xl"  src="images/image-product-desktop.jpg">
       <!--Details-->
-      <div class = "max-sm:w-[20em] w-[19em] p-[1em] flex flex-col justify-start items-start gap-[1.5em]">
+      <div class = "max-sm:w-[20em] w-[19em] max-sm:pb-[1.5em] max-sm:pl-[2em] p-[1em] flex flex-col justify-start items-start gap-[1.5em]">
         <h3 class="text-left tracking-[0.5em] text-[12px] text-[hsl(228,12%,48%)]"> PERFUME </h3>
         <h1 class=" title leading-[1em] font-bold w-[10em]">Gabrielle <br> Essence Eau <br> De Parfum</h1>
         <p class="text-[16px] text-[hsl(228,12%,48%)]">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
@@ -35,8 +35,8 @@
         <h2 class="inline text-[30px] text-[hsl(158,36%,37%)] font-[Fraunces] font-bold">$ 149.99</h2> <h4 class="inline line-through text-[hsl(228,12%,48%)]"> $169.99</h4>
         </div>  
         
-        <div class="space-x-[1em] gap-[1em] flex flex-row items-center text-white"> 
-        <a href="#" class="m-auto w-[16.5em] text-center bg-[hsl(158,36%,37%)] p-[0.8em] rounded-[7px] inline font-bold hover:bg-[hsl(158,42%,18%)]"><img src="images/icon-cart.svg" class="inline mr-[0.5em]"> Add to Cart</a>
+        <div class="flex flex-row items-center text-white"> 
+        <a href="#" class="m-auto w-[16.5em] text-center  bg-[hsl(158,36%,37%)] p-[0.8em] rounded-[7px] inline font-bold hover:bg-[hsl(158,42%,18%)]"><img src="images/icon-cart.svg" class="inline mr-[0.5em]"> Add to Cart</a>
         </div>
       
       </div>
